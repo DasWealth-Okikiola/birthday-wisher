@@ -5,8 +5,8 @@ import datetime as time_module
 today = time_module.datetime.now()
 today_tuple = (today.month, today.day)
 
-host = "daswealthokikiola@gmail"
-password = "wsvrsfitmvmjlqlz"
+host = "your Gmail"
+password = "your password"
 
 
 day_data = pandas.read_csv("birthdays.csv")
